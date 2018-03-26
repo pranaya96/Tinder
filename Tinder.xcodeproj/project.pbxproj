@@ -13,6 +13,11 @@
 		7D8D657420686FF0003B06DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8D657220686FF0003B06DE /* LaunchScreen.storyboard */; };
 		7D8D657F20686FF0003B06DE /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D657E20686FF0003B06DE /* TinderTests.swift */; };
 		7D8D658A20686FF0003B06DE /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D658920686FF0003B06DE /* TinderUITests.swift */; };
+		7D8D65982068716E003B06DE /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D65972068716E003B06DE /* CardsViewController.swift */; };
+		7D8D659A20689293003B06DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D659920689293003B06DE /* ProfileViewController.swift */; };
+		7D8D659D20689974003B06DE /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D659B20689972003B06DE /* BaseTransition.swift */; };
+		7D8D659E20689974003B06DE /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D659C20689973003B06DE /* FadeTransition.swift */; };
+		7D8D65A0206899DA003B06DE /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D659F206899DA003B06DE /* ImageTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		7D8D658520686FF0003B06DE /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8D658920686FF0003B06DE /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		7D8D658B20686FF0003B06DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8D65972068716E003B06DE /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		7D8D659920689293003B06DE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7D8D659B20689972003B06DE /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		7D8D659C20689973003B06DE /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		7D8D659F206899DA003B06DE /* ImageTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				7D8D657020686FF0003B06DE /* Assets.xcassets */,
 				7D8D657220686FF0003B06DE /* LaunchScreen.storyboard */,
 				7D8D657520686FF0003B06DE /* Info.plist */,
+				7D8D65972068716E003B06DE /* CardsViewController.swift */,
+				7D8D659920689293003B06DE /* ProfileViewController.swift */,
+				7D8D659B20689972003B06DE /* BaseTransition.swift */,
+				7D8D659C20689973003B06DE /* FadeTransition.swift */,
+				7D8D659F206899DA003B06DE /* ImageTransition.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8D659A20689293003B06DE /* ProfileViewController.swift in Sources */,
+				7D8D659E20689974003B06DE /* FadeTransition.swift in Sources */,
+				7D8D659D20689974003B06DE /* BaseTransition.swift in Sources */,
+				7D8D65982068716E003B06DE /* CardsViewController.swift in Sources */,
+				7D8D65A0206899DA003B06DE /* ImageTransition.swift in Sources */,
 				7D8D656A20686FF0003B06DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
